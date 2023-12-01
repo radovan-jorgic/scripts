@@ -1,4 +1,4 @@
-import zoho from "./typescript/zoho";
+import zoho from "./functions/zoho";
 
 interface FunctionFactory {
   [key: string]: (...args: any[]) => any;
